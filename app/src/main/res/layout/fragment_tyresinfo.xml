@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mudit.com.drivsafe.Fragments.Tyresinfo">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="2dp"
+                    android:background="@drawable/tire"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <TextView
+                    android:id="@+id/tvPressure1"
+                    android:layout_gravity="center"
+                    android:text="Pressure : 32Pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTemperature1"
+                    android:layout_gravity="center"
+                    android:text="Temperature : 20C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="2dp"
+                    android:background="@drawable/tire"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <TextView
+                    android:id="@+id/tvPressure2"
+                    android:layout_gravity="center"
+                    android:text="Pressure : 32Pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTemperature2"
+                    android:layout_gravity="center"
+                    android:text="Temperature : 20C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="2dp"
+                    android:background="@drawable/tire"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <TextView
+                    android:id="@+id/tvPressure3"
+                    android:layout_gravity="center"
+                    android:text="Pressure : 32Pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTemperature3"
+                    android:layout_gravity="center"
+                    android:text="Temperature : 20C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="2dp"
+                    android:background="@drawable/tire"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <TextView
+                    android:id="@+id/tvPressure4"
+                    android:layout_gravity="center"
+                    android:text="Pressure : 32Pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTemperature4"
+                    android:layout_gravity="center"
+                    android:text="Temperature : 20C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:text="Status :"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvStatus"
+            android:textSize="26sp"
+            android:textColor="@android:color/holo_green_light"
+            android:text=" Healthy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

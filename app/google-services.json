@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278661398895",
+    "firebase_url": "https://drivsafe-e0083.firebaseio.com",
+    "project_id": "drivsafe-e0083",
+    "storage_bucket": "drivsafe-e0083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278661398895:android:42b3eb4709222a9f",
+        "android_client_info": {
+          "package_name": "mudit.com.drivsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278661398895-1qvdufnfgg3kcssaia70977mtpjqfv4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mudit.com.drivsafe",
+            "certificate_hash": "2f51cd211264bf1b958054b51e7299e400cc03f2"
+          }
+        },
+        {
+          "client_id": "278661398895-kotufhentjb7qkfhjo3jc5ct4bnsjrrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSiEPuFuJNuzPviGzPVCqnlTa5ZmPCbDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278661398895-kotufhentjb7qkfhjo3jc5ct4bnsjrrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

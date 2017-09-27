@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mudit.com.drivsafe.Fragments.MapsFragment">
+    <LinearLayout android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:text="Starting Point:"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:hint="Noida"
+                android:textSize="22sp"
+
+                android:layout_weight="1"
+                android:id="@+id/etstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="22sp"
+
+                android:text="Destination:"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:hint="Delhi"
+                android:textSize="22sp"
+
+                android:layout_weight="1"
+                android:id="@+id/etdtName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="mudit.com.drivsafe.MapsActivity" />
+    </LinearLayout>
+    <ImageButton
+        android:padding="30dp"
+        android:id="@+id/imgMyLocation"
+        android:background="@drawable/ic_gps_fixed_black_24dp"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:padding="30dp"
+        android:id="@+id/imgStartNavigation"
+        android:background="@drawable/ic_directions_blue_a700_24dp"
+        android:layout_gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
