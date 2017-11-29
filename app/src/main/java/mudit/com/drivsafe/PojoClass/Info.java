@@ -5,12 +5,12 @@ package mudit.com.drivsafe.PojoClass;
  */
 
 public class Info {
-    private int pressure;
+    private String pressure;
     private String temperature;
     private String date;
     private String time;
 
-    public Info(int pressure, String temperature, String date, String time) {
+    public Info(String pressure, String temperature, String date, String time) {
         this.pressure = pressure;
         this.temperature = temperature;
         this.date = date;
@@ -21,7 +21,7 @@ public class Info {
 
     }
 
-    public int getPressure() {
+    public String getPressure() {
         return pressure;
     }
 

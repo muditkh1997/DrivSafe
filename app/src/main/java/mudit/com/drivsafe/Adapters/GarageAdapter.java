@@ -43,8 +43,15 @@ public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.GarageView
     public void onBindViewHolder(GarageViewHolder holder, int position) {
         final Garage garage=garages.get(position);
         holder.tvName.setText(garage.getName());
-        holder.tvDistance.setText(""+String.format("%.2f",garage.getDistance())+" mi");
+        holder.tvDistance.setText(""+String.format("%.2f",garage.getDistance())+" m");
         holder.tvPhone.setText(garage.getPhone_no());
+//        if(holder.tvPhone!=null && holder.tvPhone.getText().toString().length()>8){
+//            String linktogo=holder.tvPhone.getText().toString();
+//            linktogo=linktogo.replace(" ","");
+//            linktogo.trim();
+//            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(linktogo));
+//            context.startActivity(i);
+//        }
         holder.imgDirection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

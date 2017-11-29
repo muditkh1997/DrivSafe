@@ -83,7 +83,7 @@ public class Tyresinfo extends Fragment {
                     tvStatus.setText("Healthy");
                     tvStatus.setTextColor(Color.parseColor("#1B5E20"));
                 }
-                int pressure= info.getPressure();
+                Float pressure= Float.valueOf(info.getPressure());
                 if(pressure<20 && flag1[0] ==0){
                     flag1[0] =1;
                     AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

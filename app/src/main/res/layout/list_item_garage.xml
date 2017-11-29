@@ -10,7 +10,7 @@
     android:layout_margin="5dp">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="5dp"
-
+    android:background="@color/colorPink"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <FrameLayout
@@ -20,16 +20,17 @@
         android:layout_height="wrap_content">
 <TextView
     android:textSize="24sp"
-    android:hint="Name of garage"
+    android:text="Name of garage"
+    android:textColor="@android:color/white"
     android:id="@+id/tvName"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
         <ImageButton
             android:id="@+id/imgDirections"
             android:layout_gravity="right"
-            android:background="@drawable/ic_directions_blue_a700_24dp"
+            android:background="@drawable/ic_directions_white_24dp"
             android:layout_width="35dp"
-            android:layout_height="30dp" />
+            android:layout_height="35dp" />
     </FrameLayout>
     <FrameLayout
         android:padding="5dp"
@@ -37,12 +38,14 @@
         android:layout_height="wrap_content">
         <TextView
             android:id="@+id/tvDistance"
+            android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:hint="Distance : 1.5 mi"
+            android:text="Distance : 1.5 mi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/tvPhone"
+            android:textColor="@android:color/white"
             android:layout_gravity="right"
             android:textSize="18sp"
             android:text="+919898989828"

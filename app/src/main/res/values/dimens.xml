@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen tools:override="true" name="design_fab_image_size">44dp</dimen>
+</resources>

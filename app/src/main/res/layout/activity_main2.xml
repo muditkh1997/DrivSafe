@@ -26,7 +26,16 @@
         android:layout_marginBottom="80dp"
         android:layout_marginRight="10dp"
         android:src="@drawable/ic_near_me_white_24dp"
+        app:backgroundTint="@color/colorPink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+
+        android:src="@drawable/dddd"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right" />
 </FrameLayout>
