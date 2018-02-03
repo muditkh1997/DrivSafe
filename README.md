@@ -6,7 +6,7 @@
 DrivSafe is an android app aimed at reducing the number of road casualties. Our tire sensors monitors your car tires non-stop around the clock.  You will get an alert as soon as the tire pressure and temperature drops below or rises above a certain pre-set level, even when the car ignition is switched off. This alert gives you time to get the tire fixed before you need to use it. You can also check detailed statistical analysis of tires like Speed vs. Temp, Speed vs. Pressure etc.
 The sensors will be fitted with gps module, so you can track your car’s location anytime.
 
-DrivSafe helps you to focus on the road. It would take care of all the incoming text messages. Our IVR technology will convert the incoming message into speech and read it out to you. You can speak out your reply as well.
+DrivSafe helps you to focus on the road. It would take care of all the incoming text messages. Our IVR technology will convert the incoming message into speech and read it out to you.It also provides the feature of replying by speech. You can speak out your reply as well.
 While monitoring car tires, you can access below features of our app:
 
 * Maps
