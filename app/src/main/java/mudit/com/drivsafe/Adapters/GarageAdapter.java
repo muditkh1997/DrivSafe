@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.apache.http.conn.ConnectTimeoutException;
@@ -35,7 +36,7 @@ public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.GarageView
     @Override
     public GarageViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater li=(LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView=li.inflate(R.layout.list_item_garage,parent,false);
+        View itemView=li.inflate(R.layout.list_item_garage1,parent,false);
         return new GarageViewHolder(itemView);
     }
 
@@ -76,13 +77,13 @@ public class GarageAdapter extends RecyclerView.Adapter<GarageAdapter.GarageView
 
     class GarageViewHolder extends RecyclerView.ViewHolder {
         TextView tvName,tvDistance,tvPhone;
-        ImageButton imgDirection;
+        ImageView imgDirection;
         public GarageViewHolder(View itemView) {
             super(itemView);
             tvName= (TextView) itemView.findViewById(R.id.tvName);
             tvDistance= (TextView) itemView.findViewById(R.id.tvDistance);
             tvPhone= (TextView) itemView.findViewById(R.id.tvPhone);
-            imgDirection=(ImageButton)itemView.findViewById(R.id.imgDirections);
+            imgDirection=(ImageView) itemView.findViewById(R.id.imgDirections);
         }
     }
 }

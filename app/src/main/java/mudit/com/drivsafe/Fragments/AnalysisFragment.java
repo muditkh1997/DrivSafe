@@ -45,7 +45,7 @@ public class AnalysisFragment extends Fragment {
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 //        // Inflate the layout for this fragment
-        View rootView= inflater.inflate(R.layout.fragment, container, false);
+        View rootView= inflater.inflate(R.layout.new_statistics, container, false);
 
 //        DatabaseReference mdatabase;
 //

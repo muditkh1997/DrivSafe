@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Item"
+        android:id="@+id/main_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/wheel2"
+        android:orderInCategory="1">
+
+            <menu>
+
+                <item
+                    android:title="Tyre 1"
+                    android:id="@+id/t1"/>
+
+                <item
+                    android:title="Tyre 2"
+                    android:id="@+id/t2"/>
+                <item
+                    android:title="Tyre 3"
+                    android:id="@+id/t3"/>
+                <item
+                    android:title="Tyre 4"
+                    android:id="@+id/t4"/>
+
+            </menu>
+        </item>
+
+</menu>
